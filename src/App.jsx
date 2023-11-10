@@ -10,7 +10,7 @@ function App() {
         },
         body: JSON.stringify({
           email: "batman@example.com",
-          password: "gothamrocks1",
+          password: "gothamrocks",
         }),
       });
 
