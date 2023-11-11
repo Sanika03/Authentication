@@ -2,7 +2,7 @@ import { useAuth } from "../context/AuthContext";
 import LoginHeader from "../components/Login/LoginHeader";
 import LoginMain from "../components/Login/LoginMain";
 
-export const Login = () => {
+const Login = () => {
     const { onLogin } = useAuth();
     const API_URL = "https://one00x-react-backend.onrender.com";
 
@@ -37,3 +37,5 @@ export const Login = () => {
         </div>
     )
 }
+
+export default Login;
