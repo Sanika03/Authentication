@@ -1,4 +1,4 @@
-const Button = ({ variant, size, text, onClick }) => {
+const Button = ({ variant="default", size="md", text="Add your text", onClick }) => {
     const baseStyles = "py-2 px-6 rounded-border-65 shadow-box-shadow backdrop-blur-23 text-center font-bold leading-normal w-full";
 
     const sizeStyles = {
