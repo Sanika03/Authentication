@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import Button from "../Tweet/Button";
 
 const LoginMain = ({handleLogin}) => {
     const navigate = useNavigate();
@@ -17,9 +18,7 @@ const LoginMain = ({handleLogin}) => {
                 </section>      
                 <div className="flex flex-col items-start gap-5 self-stretch">
                     <p className="text-neutral-50 text-15 font-normal leading-normal">Already have an account?</p>
-                    <button className="flex py-2 px-6 justify-center items-center gap-2.5 self-stretch rounded-border-65 shadow-box-shadow backdrop-blur-23 border border-solid border-button-stroke w-full">
-                        <p className="text-twitter-blue text-center text-base font-bold leading-normal" onClick={() => onLogin()}>Sign in</p>
-                    </button>
+                    <Button variant="outline" size="md" text="Sign in"/>
                 </div>
             </section>
         </main>
