@@ -8,6 +8,7 @@ const Button = ({ variant="default", size="md", text="Add your text", onClick })
     };
 
     const variantStyles = {
+        default: "bg-neutral-50 text-neutral-1000 hover:bg-neutral-200",
         outline: "border border-solid border-button-stroke text-twitter-blue"
     };
 
