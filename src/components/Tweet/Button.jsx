@@ -1,4 +1,4 @@
-const Button = ({ variant, size, text }) => {
+const Button = ({ variant, size, text, onClick }) => {
     const baseStyles = "py-2 px-6 rounded-border-65 shadow-box-shadow backdrop-blur-23 text-center font-bold leading-normal w-full";
 
     const sizeStyles = {
@@ -14,7 +14,7 @@ const Button = ({ variant, size, text }) => {
     const classes = `${baseStyles} ${sizeStyles[size]} ${variantStyles[variant]}`;
 
     return (
-            <button className={classes}>
+            <button className={classes} onClick={onClick}>
                 {text}
             </button>
         )

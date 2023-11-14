@@ -18,7 +18,7 @@ const LoginMain = ({handleLogin}) => {
                 </section>      
                 <div className="flex flex-col items-start gap-5 self-stretch">
                     <p className="text-neutral-50 text-15 font-normal leading-normal">Already have an account?</p>
-                    <Button variant="outline" size="md" text="Sign in"/>
+                    <Button variant="outline" size="md" text="Sign in" onClick={onLogin}/>
                 </div>
             </section>
         </main>
